@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 app.use(bodyParser.json());
 
-app.all('/', function (req, res) {
+app.all('*', function (req, res) {
   console.log(color.inverse('> Date: ' + new Date().toLocaleString()));
   console.log(color.yellow('> Request:'), req.method, req.originalUrl);
   console.log(color.blue('> Header:'), req.headers);
