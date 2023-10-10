@@ -18,8 +18,8 @@ app.all('*', function (req, res) {
 });
 
 app
-  .listen(8080, function () {
-    console.log(color.gray('listening on http://localhost:8080'));
+  .listen(8888, function () {
+    console.log(color.gray('listening on http://localhost:8888'));
   })
   .on('error', function (err) {
     console.log(color.red('Failed to start server'));

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "app": "node index.js",
-    "ngrok": "ngrok http 8080",
+    "ngrok": "ngrok http 8888",
     "serve": "npm-run-all --parallel app ngrok"
   },
   "keywords": [
